@@ -55,8 +55,36 @@
     top: 0;
     right: 0;
     background: url(techb.jpg) no-repeat center center/cover;
-    height: 900px;
+    height: 761.5px;
     width: 100%;
     z-index: -1;
     opacity: .9;
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+/* About Section */ 
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margine-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 400px;
+    height: 450px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
 }
